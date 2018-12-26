@@ -1,1 +1,1 @@
-A little drawing of Santa in pure CSS.
+Adding some holiday cheer, exploring some CSS! 
