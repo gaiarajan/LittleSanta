@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background: #3ac6f4;
+  height: 100%;
+}
+
+.santa {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  margin-top: -60px;
+}
+
+.santa .hat {
+  width: 130px;
+  height: 62px;
+  border-radius: 400px 400px 0 0;
+  background: #ef4753;
+  margin: 0 auto;
+  top: -33px;
+  position: relative;
+  left: 30px;
+  z-index: 20;
+}
+
+.santa .hat:after {
+  width: 120px;
+  height: 30px;
+  border-radius: 40px;
+  content: "";
+  display: block;
+  background: white;
+  position: relative;
+  top: 44px;
+  left: -6px;
+}
+
+.santa .hat .hat-end {
+  width: 26px;
+  height: 64px;
+  content: "";
+  background: #ef4753;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 30px;
+  border-radius: 0px 22px 0px 0px;
+}
+
+.santa .hat .hat-end:after {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  content: "";
+  display: inline-block;
+  top: 50px;
+  position: absolute;
+  left: 0px;
+  z-index: 11;
+}
+
+.circles {
+  background: #a31f2b;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  z-index: 9;
+  position: absolute;
+  right: -6px;
+  top: 12px;
+}
+
+.circles:after {
+  background: white;
+  width: 40px;
+  height: 40px;
+  right: 0;
+  top: 50px;
+  content: "";
+  border-radius: 50%;
+}
+.iphone {
+  background: #fcfcfc;
+  border-radius: 10px;
+  height: 220px;
+  width: 124px;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+}
+.iphone:before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  height: 16px;
+  width: 140px;
+
+  z-index: -1;
+  border-radius: 100%;
+}
+.iphone .screen {
+  margin: 26px 0px 0px 8px;
+  background: #161b21;
+  border-radius: 2px;
+  height: 168px;
+  width: 108px;
+}
+
+.iphone .screen:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 174px 0px 0px 48px;
+  z-index: -1;
+  border-radius: 1px;
+  z-index: 1;
+}
+.present {
+  width: 35px;
+  height: 35px;
+}
+.present1 {
+  background: #fbbabd;
+  position: absolute;
+  left: 25%;
+  top: 72.2%;
+}
+.present2 {
+  position: absolute;
+  background: #e6e63e;
+  left: 34%;
+  top: 56.3%;
+}
+.present3 {
+  background: #29a3ba;
+
+  position: absolute;
+  left: 30%;
+  top: 40.3%;
+}
+.stripenormal {
+  width: 35px;
+  height: 5px;
+  position: relative;
+  top: 35%;
+}
+.stripecross {
+  width: 5px;
+  height: 35px;
+  position: relative;
+  left: 35%;
+  top: -12.5%;
+}
+.stripe1 {
+  background-color: #5bb14e;
+}
+.stripe2 {
+  background-color: #743099;
+}
+.stripe3 {
+  background-color: pink;
+}
+.text{
+  color:white;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size:0.75em;
+  width:108px;
+  position:absolute;
+  text-align:center;
+    left: -75%;
+  top: -110%;
+}
