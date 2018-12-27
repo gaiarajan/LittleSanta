@@ -1,0 +1,1 @@
+A little drawing of Santa in pure CSS.
